@@ -1,41 +1,24 @@
 # EXPLORING AND CLEANING DATA WITH PANDAS
 
-## Overview
-* This is an updated and better version of my movie app, where I only had 10 personal movies, This app fetches data from the TMDB API to show information about movies. This App also uses another Api that allows the user to send voice command to the app and the app will do it. 
+## Project Description: Instacart
+ * Datasets:
+  - instacart_orders.csv
+  - products.csv
+  - order_products.csv
+  - aisles.csv
 
-### Question/Commands you can ask the app and the app will give you an answer or action.
+### Overview
+* Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. This particular dataset was publicly released by Instacart in 2017 for a Kaggle competition.
 
-1. What does this app do?
-2. Give the command [go to] "pick a genre/category"
-3. Give the command "Change screen Mode" 
-4. More command and functionalities to come... 
+* My task is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers. After answering each question, I wrote a brief explanation of my results in a markdown cell of my Jupyter notebook.
+* This project requires plots that communicate my results.
 
-### Prerequisites
-* You need to create an account and get an API key in the MovieDatabase Api [Follow the link -> ](https://developers.themoviedb.org/3)
-
-### Functionality
+### Data dictionary
 
 * It allows the user to click on a specific Genre and the app fetches movies according to that Genre. 
 * Once the user clicks on a specific movie, the app will display information about the movie, from reviews to the cast. And according to the specific movie clicked the User will be able to see recommended movies that are similar to the clicked one. 
 * You can also ask the app 
 
-### Images
-![Image](src/Img/darkmode.png)
-![Image](src/Img/lightmode.png )
-![Image](src/Img/infolight.png )
-![Image](src/Img/infodark.png )
-
-### Technologies
-* To build this app latest technologies were used, using React hooks and Redux for state management. As for Css this app uses Material UI for some parts, and the most using css grid/flex. 
-
-- React JS
-- React Router
-- Redux, Redux-Thunk
-- MaterialUI
-- SCSS modules
 
 
-### Installing 
-* Clone the Repo and run npm install and npm run to run on localhost
 
-[Click here to see live Version --> ](https://newmovies.netlify.app)
